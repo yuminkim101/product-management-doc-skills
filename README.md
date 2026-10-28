@@ -17,13 +17,13 @@ Claude 스킬은 특정 업무의 작업 순서, 양식, 점검 기준을 묶은
 
 ### 메모 → 원페이저 + PRD (prd-1pager-builder)
 
-![한 줄 메모가 원페이저와 PRD가 되기까지](docs/images/memo-vs-prd.png)
+![기획 메모 → 원페이저 · PRD](docs/images/memo-vs-prd.png)
 
 한 줄짜리 메모([input-memo.md](examples/withdrawal-retention/input-memo.md))로 [원페이저](examples/withdrawal-retention/one-pager.md)와 [PRD](examples/withdrawal-retention/prd.md)를 만든 결과입니다. 메모에 없던 근거·지표·정책은 지어내지 않고 (가정), 미정, 확인 필요 사항으로 남겼습니다. 탈퇴 관련 법 기준은 작성 중에 별도로 찾아 확인한 내용을 16장 제약에 넣었습니다.
 
 ### 메모 → 디자인·개발 요청서 (handoff-doc-builder)
 
-![세 줄 메모가 디자인·개발 요청서가 되기까지](docs/images/memo-vs-handoff.png)
+![기획 메모 → 디자인 요청서 · 개발 요청서](docs/images/memo-vs-handoff.png)
 
 세 줄짜리 메모([input-memo.md](examples/restock-alert/input-memo.md))로 [디자인 요청서](examples/restock-alert/design-request.md)와 [개발 요청서](examples/restock-alert/dev-request.md)를 만든 결과입니다. 메모에 없던 "알림 발송" 기능이 개발 요청서 단계에서 빈 곳으로 드러났습니다.
 
